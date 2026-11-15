@@ -1,7 +1,5 @@
-# Cube Escape · Production notes
+# Cube Escape · Current previews
 
 https://seungyeoning.github.io/cube-escape-preview/
 
-Published preview gallery. Artwork and gameplay are work in progress; each section distinguishes concepts, model candidates and Play verification.
-
-Raw game source, models and private production logs are not part of this repository.
+Current character, room and object previews only. Concepts, model candidates and Unity checks are labelled separately. Raw models, game sources and private logs are not published here.
