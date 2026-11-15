@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T17:36:39+09:00",
+  "updated_at": "2026-11-15T18:12:31+09:00",
   "title": "Cube Escape 전체 방 아이디어",
   "counts": {
     "room_entries": 70,
@@ -199,7 +199,7 @@
         "kit_ids": []
       },
       "game": {
-        "summary": "30×30×6m T형 방에 접수·분류·포장·계량 구역의 새 가구와 소품을 연결했습니다. 실제 Play에서 E 집기·배달과 봇의 소포12개 배달을 확인했습니다. 준비 상태와 플레이어 접근 위치는 테스트용으로 지정했습니다. 벽·바닥·천장 마감, 중앙 밀도, 손 접촉과 소포의 물리 동작은 아직입니다.",
+        "summary": "30×30×6m T형 방에 벽·천장·창·문·바닥과 매립 레일을 반영했습니다. Play에서 준비 콘솔 옆 통로와 가로 동선·벽 충돌을 검사했습니다. 중앙 여백과 반복 배치, 손 접촉·물리 운반·장치 동작은 작업 중입니다.",
         "complete": false
       },
       "rules": {
@@ -235,13 +235,13 @@
         "user_final_approval": false
       },
       "model": {
-        "summary": "방 소품 8/22항목 준비",
-        "prepared_inventory_items": 8,
+        "summary": "방 소품 9/22항목 준비",
+        "prepared_inventory_items": 9,
         "inventory_items": 22,
         "kit_ids": []
       },
       "game": {
-        "summary": "22개 계획 품목 중 8개를 인계했습니다. 새 소품은 모델 후보이며 전체 방 조립과 새 외형의 게임 반영은 남아 있습니다.",
+        "summary": "22개 계획 품목 중 9개를 인계했습니다. 새 소품은 모델 후보이며 전체 방 조립과 새 외형의 게임 반영은 남아 있습니다.",
         "complete": false
       },
       "rules": {
