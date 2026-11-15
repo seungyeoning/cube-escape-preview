@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15T18:12:31+09:00",
+  "updated_at": "2026-11-15T18:41:01+09:00",
   "title": "Cube Escape 전체 방 아이디어",
   "counts": {
     "room_entries": 70,
@@ -235,13 +235,13 @@
         "user_final_approval": false
       },
       "model": {
-        "summary": "방 소품 9/22항목 준비",
-        "prepared_inventory_items": 9,
+        "summary": "방 소품 10/22항목 준비",
+        "prepared_inventory_items": 10,
         "inventory_items": 22,
         "kit_ids": []
       },
       "game": {
-        "summary": "22개 계획 품목 중 9개를 인계했습니다. 새 소품은 모델 후보이며 전체 방 조립과 새 외형의 게임 반영은 남아 있습니다.",
+        "summary": "22개 계획 품목 중 10개를 인계했습니다. 새 소품은 모델 후보이며 전체 방 조립과 새 외형의 게임 반영은 남아 있습니다.",
         "complete": false
       },
       "rules": {
