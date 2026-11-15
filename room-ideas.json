@@ -1,0 +1,3513 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-15T17:28:18+09:00",
+  "title": "Cube Escape 전체 방 아이디어",
+  "counts": {
+    "room_entries": 70,
+    "genre_proposals": 36,
+    "theme_proposals": 30,
+    "foundation_spaces": 4,
+    "selected_world_concepts": 15,
+    "entries_with_concept_reference": 22,
+    "cross_room_features": 2,
+    "unassigned_candidates": 5
+  },
+  "count_note": "기획 항목 수이며 확정 출시 방 수·구현 완료 수·보드 칸 수가 아니다. 비슷한 테마는 연결해 두고 통합 결정 전까지 보존한다.",
+  "status_note": "사용자 방향과 에이전트의 임시 명칭·세부 규칙을 구분한다. 컨셉 시안·모델 후보·게임 적용·최종 승인은 각각 별도 단계다.",
+  "user_directions": [
+    "주사위를 굴려 네 명이 함께 다음 방으로 이동한다. 보드의 모든 칸은 방이며 방마다 개인전·팀전·협동과 장르가 달라진다.",
+    "로비에서는 각자 태엽을 꽂고 자기 캡슐에 들어간다. 전원 준비 후 하강해 시작하며, 이후 방 사이 이동은 매립 레일과 작은 바퀴를 사용한다. 실패하면 추격자가 가까워진다.",
+    "게임에서는 전체 맵을 공개하지 않고 현재 방을 1인칭으로 경험한다. 방 안에 거대한 세계가 펼쳐지며 외곽·높이·동선·밀도·빛을 서로 다르게 만든다.",
+    "미래·스팀펑크·판타지 등 세계관은 달라도 두툼한 비율, 큰 면, 절제된 모서리와 재질의 공통 그림체를 유지한다.",
+    "한 방은 최대 약 5~10분. 일반 방 5분·큰 협동 방 10분은 임시 편성 기준이며 짧은 파티게임을 억지로 5분 이상 늘리지 않는다.",
+    "기존 방 시안을 우선 활용해 게임에 맞게 조정한다. 방 전체 시안 → 별도 배치 시안 → 물건 목록 → 단독 시안 → 3D 제작 → Blender 정리·검수 → 방별 인계 순서다."
+  ],
+  "rooms": [
+    {
+      "id": "LB",
+      "name": "거짓말 살롱",
+      "aliases": [
+        "블러핑",
+        "라이어",
+        "카드 게임"
+      ],
+      "reference": {
+        "label": "Liar’s Bar",
+        "kind": "game",
+        "basis": "existing-room-plan"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "카드 블러핑",
+      "mode_proposed": "개인전",
+      "summary": "이번 문양을 확인 → 카드를 뒤집어 내며 수량 선언 → 다음 사람이 믿거나 거짓말 지적 → 마지막 제출 공개",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [
+        "왕관·열쇠·달의 독자 문양과 공통 뒷면. 카드를 뒤집어 내고 수량을 선언한 뒤 믿거나 직전 제출을 공개해 도전한다."
+      ],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "방 시안",
+        "image": "media/7bbeeb222095361bc14a.webp",
+        "page": "rooms.html#LB",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "방 소품 None/30항목 준비",
+        "prepared_inventory_items": null,
+        "inventory_items": 30,
+        "kit_ids": [
+          "TT03"
+        ]
+      },
+      "game": {
+        "summary": "아트 조립 후보와 게임 속 살롱은 크기가 다릅니다. 최종 공간 통합은 남아 있습니다.",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#LB",
+        "detailed_proposal": null,
+        "win_condition_proposed": "제한시간 종료 시 개인 태엽 벌점이 가장 적은 플레이어"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#LB"
+    },
+    {
+      "id": "theme-clockwork",
+      "name": "태엽 공방",
+      "aliases": [],
+      "reference": {
+        "label": "방탈출 퍼즐 · 장르 참고",
+        "kind": "genre",
+        "basis": "title-unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "협동",
+      "summary": "흩어진 톱니를 소켓에 운반하고 네 손잡이를 맞춰 감는다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "방 시안",
+        "image": "media/4369362730152947b3b7.webp",
+        "page": "rooms.html#theme-clockwork",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "방 소품 27/27항목 준비",
+        "prepared_inventory_items": 27,
+        "inventory_items": 27,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "게임에 벽·바닥·천장·주요 소품을 반영했습니다. 최종 배치와 장치 동작은 계속 다듬습니다.",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-clockwork"
+    },
+    {
+      "id": "theme-pressure",
+      "name": "압력실",
+      "aliases": [],
+      "reference": {
+        "label": "방탈출 퍼즐 · 장르 참고",
+        "kind": "genre",
+        "basis": "title-unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "협동",
+      "summary": "밸브를 조절해 변동하는 압력 바늘을 안전 범위에 유지한다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [
+        {
+          "ids": [
+            "PG08"
+          ],
+          "note": "압력실 장치를 공유할 수 있으나 협동 압력 조절과 리듬 판정은 별도 기획이다."
+        }
+      ],
+      "concept": {
+        "available": true,
+        "kind": "방 시안",
+        "image": "media/b1869c5e1d8a43d7c730.webp",
+        "page": "rooms.html#theme-pressure",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "방 소품 25/26항목 준비",
+        "prepared_inventory_items": 25,
+        "inventory_items": 26,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "게임에 밸브·보일러·배관·정비 구역을 반영했습니다. 벽·바닥·천장과 최종 조명은 작업 중입니다.",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-pressure"
+    },
+    {
+      "id": "theme-parcels",
+      "name": "분실물실",
+      "aliases": [],
+      "reference": {
+        "label": "협동 분류·운반 · 장르 참고",
+        "kind": "genre",
+        "basis": "title-unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "팀전",
+      "summary": "둘씩 팀을 이뤄 무게와 모양에 맞는 소포를 분류한다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "방 시안",
+        "image": "media/0f3a91c66f98e088e00e.webp",
+        "page": "rooms.html#theme-parcels",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "방 소품 28/28항목 준비",
+        "prepared_inventory_items": 28,
+        "inventory_items": 28,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "30×30×6m T형 방에 접수·분류·포장·계량 구역의 새 가구와 소품을 연결했습니다. 실제 Play에서 E 집기·배달과 봇의 소포12개 배달을 확인했습니다. 준비 상태와 플레이어 접근 위치는 테스트용으로 지정했습니다. 벽·바닥·천장 마감, 중앙 밀도, 손 접촉과 소포의 물리 동작은 아직입니다.",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-parcels"
+    },
+    {
+      "id": "SF",
+      "name": "궤도 충전실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "existing-foundation",
+      "category_label": "기본 공간",
+      "genre": "기본 공간",
+      "mode_proposed": "4인 협동",
+      "summary": "자기 번호 에너지 셀을 찾아 본인 소켓에 잠금. 네 사람의 셀4개가 모두 삽입되면 성공.",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "방 시안",
+        "image": "media/6a22f12a24e75d39f748.webp",
+        "page": "rooms.html#SF",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "방 소품 8/22항목 준비",
+        "prepared_inventory_items": 8,
+        "inventory_items": 22,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "22개 계획 품목 중 8개를 인계했습니다. 새 소품은 모델 후보이며 전체 방 조립과 새 외형의 게임 반영은 남아 있습니다.",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#SF"
+    },
+    {
+      "id": "FA",
+      "name": "달빛 온실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "existing-foundation",
+      "category_label": "기본 공간",
+      "genre": "기본 공간",
+      "mode_proposed": "편성 미정",
+      "summary": "네 재료를 순서에 맞춰 우물에 조합",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [
+        {
+          "ids": [
+            "theme-greenhouse",
+            "PA",
+            "PG07"
+          ],
+          "note": "온실 소재를 공유하지만 수위 유지·재료 조합·영역 칠하기·깃발 쟁탈로 놀이가 다르다."
+        }
+      ],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#FA"
+    },
+    {
+      "id": "SP",
+      "name": "고장 난 궤도 정비실",
+      "aliases": [
+        "우주 마피아",
+        "사회적 추리"
+      ],
+      "reference": {
+        "label": "Among Us / LOCKDOWN Protocol",
+        "kind": "game",
+        "basis": "user-direction"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "사회적 추리",
+      "mode_proposed": "정비원 3 대 방해꾼 1",
+      "summary": "서로 다른 층에서 정비하는 행동과 남은 흔적으로 방해꾼을 판단한다. 개인 역할은 본인에게만 보인다.",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/81fa728b8c80cd62117c.webp",
+        "page": "rooms.html#SP",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#SP",
+        "detailed_proposal": {
+          "id": "SP",
+          "name": "고장 난 궤도 정비실",
+          "mode": "정비원 3 대 방해꾼 1",
+          "time": "임무 180초 + 안내·결과 20초, 총 200초 목표",
+          "premise": "서로 다른 층에서 정비하는 행동과 남은 흔적으로 방해꾼을 판단한다. 개인 역할은 본인에게만 보인다.",
+          "start": "배선·냉각·통신 세 구역에 총 8개 임무 배분. 정비원은 서로 다른 임무를 받고 방해꾼은 가짜 업무와 방해 장치를 받는다.",
+          "loop": "임무와 증거 확인 → 통로에서 다른 사람 행동 관찰 → 고장 복구 또는 중앙 종으로 토론 → 수리 완료 또는 방해꾼 격리.",
+          "inputs": "E 짧은 삽입/회전/접속 상호작용. 역할 행동은 근거리 문맥 입력. 투표는 버튼으로 가능하며 음성 대화가 필수가 아니다.",
+          "win": "정비원은 8개 임무 완료 또는 올바른 격리 투표로 승리. 방해꾼은 시간 내 수리를 막거나 미복구 고장으로 정거장 안정성을 0으로 만들면 승리.",
+          "failure": "신고는 전체 2회, 토론/투표 각 회 12초 초안이며 임무 시계는 계속 간다. 4명 중 3표 이상이면 격리 판정. 무승부/기권은 격리 없음. 정비원 오판은 해당 인원 15초 조작 제한 후 복귀한다.",
+          "anti_stall": "방해는 연속 재발동 쿨다운과 하나의 활성 고장만 허용. 사다리·문 길막 금지. 봇은 본인 역할과 실제 관측 정보만 사용하고 비밀 정답을 공유하지 않는다. 안정성 감소량은 플레이 조율 전 미확정.",
+          "tests": [
+            "투명 바닥/반사에서 비밀 UI 유출 없음",
+            "상하층 시야와 은폐 균형",
+            "동시 마지막 수리·안정성0의 서버 판정 순서",
+            "투표 동률과 복귀"
+          ]
+        },
+        "win_condition_proposed": "임무 완료 또는 방해꾼 목표 달성"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#SP"
+    },
+    {
+      "id": "BR",
+      "name": "마지막 보급창",
+      "aliases": [],
+      "reference": {
+        "label": "배틀그라운드",
+        "kind": "game",
+        "basis": "existing-homage-plan"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "배틀로얄",
+      "mode_proposed": "4인 개인전",
+      "summary": "거대한 폭풍 항구에서 수직 엄폐와 보급 위험을 선택하는 짧은 배틀로얄. 먼 바다는 배경이며 무한 야외 맵이 아니다.",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/c7b3157b4134b9a315b6.webp",
+        "page": "rooms.html#BR",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#BR",
+        "detailed_proposal": {
+          "id": "BR",
+          "name": "마지막 보급창",
+          "mode": "4인 개인전",
+          "time": "생존 120초 + 안내·결과 20초, 총 140초 목표",
+          "premise": "거대한 폭풍 항구에서 수직 엄폐와 보급 위험을 선택하는 짧은 배틀로얄. 먼 바다는 배경이며 무한 야외 맵이 아니다.",
+          "start": "서로 바로 보이지 않는 4개 시작 포켓에서 같은 기본 소총·체력·탄약으로 출발. 중앙 상자는 추가 탄약/회복/보호 장비만 제공하며 등급 뽑기로 승패를 결정하지 않는다.",
+          "loop": "엄폐 사이로 이동 → 위험한 보급 지점에서 장비 보완 → 선체 위/아래로 다른 사격 각도 확보 → 줄어드는 안전 구역에서 마지막까지 생존.",
+          "inputs": "WASD/마우스 이동·조준, 좌클릭 사격, 우클릭 조준 확대, R 재장전, E 가까운 보급품, Space 작은 점프. 장비·조준 흔들림은 실제 팔 도달 범위와 1인칭 가독성 우선.",
+          "win": "마지막 생존자가 즉시 승리. 120초에 여러 명 생존하면 현재 체력 비율 → 상대에게 준 유효 피해 순으로 비교하고 같으면 공동 순위. 같은 판정 틱의 마지막 상호 처치는 공동 순위로 처리한다.",
+          "failure": "쓰러지면 이번 라운드 재등장 없이 관전. 초반 탈락의 대기 시간은 남은 120초 이내이며 관전자는 숨은 상대 위치를 전달할 수 없다. 낙수/지형 밖 탈출은 짧은 경고 뒤 일반 피해 판정, 안전 구역으로 무료 순간이동하지 않는다.",
+          "anti_stall": "30/60/90초 수축을 5초 먼저 예고하고 105초까지 마지막 구역 완성. 원 중심은 사전에 검증한 도달 가능한 지면 앵커만 사용한다. 위층에만 유리한 마지막 원, 물 위 원, 막다른 길 스폰 금지. 이탈 봇은 같은 시야·소리만 이용한다.",
+          "tests": [
+            "4개 시작 포켓의 장비/첫 엄폐 도달 시간",
+            "수축 전후 위·아래 길의 접근성",
+            "사격선과 실제 엄폐 충돌 일치",
+            "동시 마지막 사망·120초 동률·관전자 정보"
+          ]
+        },
+        "win_condition_proposed": "최후 생존 또는 시간 종료 점수"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#BR"
+    },
+    {
+      "id": "SW",
+      "name": "뒤집힌 결투장",
+      "aliases": [],
+      "reference": {
+        "label": "검·방패 난투 · 참고작 미정",
+        "kind": "genre",
+        "basis": "title-unspecified"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "검·방패 난투",
+      "mode_proposed": "4인 개인전 우선",
+      "summary": "체력만 깎는 결투보다 경사와 위치를 이용한 검·방패 밀어내기. 2대2는 별도 후속 변형이다.",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/8b0500b7d43a6312166a.webp",
+        "page": "rooms.html#SW",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#SW",
+        "detailed_proposal": {
+          "id": "SW",
+          "name": "뒤집힌 결투장",
+          "mode": "4인 개인전 우선",
+          "time": "대결 90초 + 안내·결과 20초, 총 110초 목표",
+          "premise": "체력만 깎는 결투보다 경사와 위치를 이용한 검·방패 밀어내기. 2대2는 별도 후속 변형이다.",
+          "start": "전원 같은 검·방패로 네 안전 포켓에서 시작. 경기 중 바닥 경사는 고정하고 카메라는 수평을 유지한다. 기존 둥근 몸체를 검/방패에 맞춰 찌그러뜨리지 않는다.",
+          "loop": "검으로 견제 → 방패로 받아내기 → 상대의 회복 순간에 짧게 밀기 → 낮은 쪽 경계 밖으로 떨어뜨리기 → 재등장한 상대와 다시 대결.",
+          "inputs": "좌클릭 검 공격, 우클릭 방패, E 짧은 밀기, WASD 이동, Space 작은 점프. 밀기 쿨다운 3초 초안. 공격은 시작·접촉·회복이 읽히도록 하되 모션 전체 템포는 1.5배 기준.",
+          "win": "링아웃 1회 1점, 먼저 5점 또는 90초 최고 점수 승리. 같은 점수면 공동 순위. 추락 전 3초 안에 마지막으로 유효한 밀침을 준 상대가 점수를 얻는다.",
+          "failure": "추락자는 3초 후 가장 비어 있는 복귀 포켓에 재등장. 2초 보호는 공격 시 해제. 상대 접촉 없이 스스로 떨어지면 아무도 점수를 얻지 못한다. 방패는 3회 유효 방어 뒤 1초 무너짐, 비방어 2초마다 1회 회복하는 임시안.",
+          "anti_stall": "장식 승리 종/입구는 경기 중 접근 불가. 벽·엄폐에 끼여 무적이 되지 않게 복귀 판정. 매번 같은 낮은 포켓에서 부활하지 않는다. 이탈 봇은 동일 공격 간격과 방패 제한을 지킨다.",
+          "tests": [
+            "6도 경사에서 발 접지·미끄러짐·카메라 수평",
+            "밀침 공헌 3초 판정과 자발 추락",
+            "부활 보호·가장 비어 있는 포켓 선택",
+            "손/팔 길이 유지와 방패 접촉"
+          ]
+        },
+        "win_condition_proposed": "밀어낸 횟수"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#SW"
+    },
+    {
+      "id": "RV",
+      "name": "미니언이 된 우리",
+      "aliases": [
+        "씨앗 수호 협곡"
+      ],
+      "reference": {
+        "label": "리그 오브 레전드",
+        "kind": "game",
+        "basis": "user-direction"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "미니언 전선전",
+      "mode_proposed": "2대2",
+      "summary": "플레이어 네 명이 직접 미니언이다. 챔피언/영웅 조작 모드는 이번 방향이 아니다.",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [
+        "플레이어인 우리가 작은 미니언이 되어 2대2 전선과 코어를 공략한다."
+      ],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/a9e9896f3e724bc3b7a5.webp",
+        "page": "rooms.html#RV",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#RV",
+        "detailed_proposal": {
+          "id": "RV",
+          "name": "미니언이 된 우리",
+          "mode": "2대2",
+          "time": "전투 180초 + 안내·결과 20초, 총 200초 목표",
+          "premise": "플레이어 네 명이 직접 미니언이다. 챔피언/영웅 조작 모드는 이번 방향이 아니다.",
+          "start": "진영별 2명. 방패 미니언 또는 원거리 미니언 중 하나를 고르고 코어 앞에서 시작한다. 기존 토끼의 몸체·얼굴을 유지하고 장비만 독립 착용한다.",
+          "loop": "아군 자동 미니언 파도와 함께 본선을 밀기 → 개울·뿌리 샛길로 옆을 찌르기 → 상대 포탑 파괴 → 씨앗 코어 공격. 자동 미니언은 작은 동행 부대이며 플레이어 역할을 대신하지 않는다.",
+          "inputs": "WASD 이동, 마우스 시점/조준, 좌클릭 기본 공격, 우클릭 방패 또는 짧은 견제 기술. Space 작은 점프. 시점은 1인칭 유지.",
+          "win": "상대 포탑을 파괴해야 코어가 노출된다. 코어 파괴 즉시 승리. 시간 종료는 코어 남은 체력 비율 → 포탑 체력 비율 순으로 비교, 모두 같으면 무승부.",
+          "failure": "쓰러지면 6초 뒤 자기 코어에서 재등장. 2초 보호는 공격 시 즉시 해제. 장비 성장/전투 재화는 라운드 한정이며 영구 스킨·저장 데이터를 지우지 않는다.",
+          "anti_stall": "기지 안 공격과 무한 스폰 킬을 막고, 부활은 움직일 공간이 있는 앵커로 배치한다. 이탈자는 같은 정보·사거리의 봇이 대신한다.",
+          "tests": [
+            "두 진영 이동 시간과 엄폐 이점 비교",
+            "1인칭에서 미니언 크기와 포탑 사거리 읽기",
+            "포탑 우회 코어 공격 차단",
+            "6초 부활·시간 종료 동률"
+          ]
+        },
+        "win_condition_proposed": "코어 파괴 또는 남은 내구도"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#RV"
+    },
+    {
+      "id": "ST",
+      "name": "불 꺼진 발전소",
+      "aliases": [
+        "잠입",
+        "퓨즈",
+        "발전기 탈출",
+        "대바데"
+      ],
+      "reference": {
+        "label": "데드 바이 데이라이트",
+        "kind": "game",
+        "basis": "user-direction"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "잠입·탈출",
+      "mode_proposed": "4인 협동 / 괴물은 AI",
+      "summary": "소음과 시선을 피해 퓨즈를 찾아 발전기를 돌리고 탈출한다. 이 방의 괴물과 보드 추격 사신은 별도 시스템이다.",
+      "session_cap_seconds_proposed": 600,
+      "duration_note": "전체 세션 상한 10분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/8badf6f651a8ddb8bc39.webp",
+        "page": "rooms.html#ST",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#ST",
+        "detailed_proposal": {
+          "id": "ST",
+          "name": "불 꺼진 발전소",
+          "mode": "4인 협동 / 괴물은 AI",
+          "time": "탐색·탈출 240초 + 안내·결과 20초, 총 260초 목표",
+          "premise": "소음과 시선을 피해 퓨즈를 찾아 발전기를 돌리고 탈출한다. 이 방의 괴물과 보드 추격 사신은 별도 시스템이다.",
+          "start": "서로 다른 세 벽감에 퓨즈 1개씩, 중앙 발전기에 3소켓. 퓨즈 위치 후보는 도달 가능성을 먼저 보장하고 선택한다.",
+          "loop": "안전한 우회로 탐색 → 퓨즈 운반 → 방향을 맞춰 삽입/잠금 → 발전기 가동으로 열린 철문까지 전원 탈출.",
+          "inputs": "WASD/마우스, Ctrl 조용히 웅크리기, E 줍기·넣기·잠금·숨기·구조, G 내려놓기. 1명당 퓨즈 1개. 운반 중 뛰면 소음이 커진다.",
+          "win": "세 퓨즈 잠금과 발전기 시작을 마친 뒤 네 명 전원이 출구 안전 구역에 도달하면 성공.",
+          "failure": "잡힌 동료는 그 자리에 쓰러지고 근거리 3초 구조로 복귀. 전원 동시에 쓰러짐 또는 시간 종료는 실패. 운반 퓨즈는 바닥에 떨어지며 접근 불가능한 구멍이면 가장 가까운 유효 받침으로 회수한다.",
+          "anti_stall": "괴물의 순간이동/벽 관통과 출구 영구 캠핑을 막는다. 모든 퓨즈에는 최소 2접근 경로. 소음과 시각 단서는 함께 표시. 봇은 잡힌 동료 구조와 퓨즈 운반을 우선하되 위치를 투시하지 않는다.",
+          "tests": [
+            "물길과 고무 통로 소음 차이",
+            "가림막·벽의 AI 시선 차단",
+            "퓨즈 물리 분실과 회수",
+            "잡기·구조 중도 취소·전원 쓰러짐"
+          ]
+        },
+        "win_condition_proposed": "제한시간 내 전원 탈출; 인원별 보상은 임시"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#ST"
+    },
+    {
+      "id": "GM",
+      "name": "다섯 알의 다실",
+      "aliases": [
+        "오목"
+      ],
+      "reference": {
+        "label": "오목 · 보드게임",
+        "kind": "board-game",
+        "basis": "user-direction"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "오목",
+      "mode_proposed": "2대2",
+      "summary": "두 팀이 한 판을 공유하고 팀원끼리 번갈아 돌을 놓아 다섯 알 연결",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "공용 테이블 방 참고 시안",
+        "image": "media/3c43d927c1201595aed6.webp",
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#GM",
+        "detailed_proposal": null,
+        "win_condition_proposed": "먼저 다섯 알 이상 연속 배치; 제한시간 미완성은 무승부"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#GM"
+    },
+    {
+      "id": "CL",
+      "name": "끝없는 절벽 구조대",
+      "aliases": [
+        "클라이밍",
+        "거대 절벽",
+        "SG03"
+      ],
+      "reference": {
+        "label": "PEAK",
+        "kind": "game",
+        "basis": "agent-provisional-reference"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "절벽 등반",
+      "mode_proposed": "4인 협동",
+      "summary": "계단을 걸어 오르는 방이 아니라 손으로 벽을 잡고 동료를 구조하는 등반 방이다. 아래 바닥은 보이지 않는다.",
+      "session_cap_seconds_proposed": 600,
+      "duration_note": "전체 세션 상한 10분 초안 · 실측 전",
+      "design_notes": [
+        "위아래가 끝없이 이어지고 아래 바닥이 보이지 않는 초대형 산악 절벽. 손잡이·휴식 턱·동료 구조로 오른다. 연속 계단길은 목표에서 제외한다.",
+        "SG03은 이 방에 연결되는 절벽 소품 묶음이며 별도 방으로 중복 집계하지 않는다."
+      ],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/67b9524c606ee8831222.webp",
+        "page": "rooms.html#CL",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "선행 소품 후보 있음",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": [
+          "CL01",
+          "SG03"
+        ]
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#CL",
+        "detailed_proposal": {
+          "id": "CL",
+          "name": "끝없는 절벽 구조대",
+          "mode": "4인 협동",
+          "time": "등반 240초 + 안내·결과 20초, 총 260초 목표",
+          "premise": "계단을 걸어 오르는 방이 아니라 손으로 벽을 잡고 동료를 구조하는 등반 방이다. 아래 바닥은 보이지 않는다.",
+          "start": "전원 도착 턱에서 시작. 3구간 등반과 2개 중간 휴식 턱. 첫 성공자가 턱의 고정점을 열면 팀 체크포인트가 된다.",
+          "loop": "손잡이를 골라 좌우 번갈아 잡기 → 가까운 턱에서 쉬기 → 위에서 동료 당겨주기 → 정상 구조 신호에 네 명 집결.",
+          "inputs": "좌/우클릭은 왼손/오른손 잡기·놓기, WASD는 몸의 이동 방향. E는 근거리 동료 구조/고정점. 도달 범위 밖에는 손을 늘리지 않고 잡기 불가 표시.",
+          "win": "제한 시간 내 네 명 모두 정상 안전 구역에 들어가면 협동 성공. 도착자를 제외하고 관전자나 봇을 인원에서 누락시키지 않는다.",
+          "failure": "추락은 팀 구조 로프 1회를 소모해 5초 후 마지막 열린 안전 턱으로 복귀. 팀 구조 3회 초안이며 네 번째 추락 또는 시간 종료에 실패. 전원 매달린 상황도 동일 자동 구조 규칙을 적용한다.",
+          "anti_stall": "체크포인트는 영구 열린 상태로 유지. 이탈자는 봇이 오르며, 되돌아올 수 없는 몸 끼임은 동일 구조 1회로 회수. 잡고 쉬는 시간과 피로 수치는 실제 리그/조작 확인 후 결정한다.",
+          "tests": [
+            "체형별 손 도달 범위와 손/전완 불변",
+            "모든 손잡이의 실제 잡기·매달림 충돌",
+            "두 명 같은 턱과 구조 시 카메라",
+            "체크포인트 없는 추락과 전원 추락"
+          ]
+        },
+        "win_condition_proposed": "전원 정상 구조대 도달"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#CL"
+    },
+    {
+      "id": "SG01",
+      "name": "심연의 유리다리",
+      "aliases": [
+        "유리다리",
+        "거대 유리다리",
+        "오징어게임"
+      ],
+      "reference": {
+        "label": "오징어 게임 — 유리다리 · 드라마",
+        "kind": "television",
+        "basis": "user-direction"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "유리다리",
+      "mode_proposed": "4인 협동 우선",
+      "summary": "무작위 찍기만 하는 게임 대신 가까운 유리의 소리·짧은 진동 단서를 읽고 건넌다. 개인전은 별도 후속 변형이다.",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [
+        "아래 바닥이 보이지 않는 거대한 심연 위의 유리판 횡단. 현재 모듈과 별도로 실제 점프 거리·경로·탈락 판정 검토가 필요하다."
+      ],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/f231429151514f61cfa2.webp",
+        "page": "rooms.html#SG01",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "선행 소품 후보 있음",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": [
+          "SG01"
+        ]
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#SG01",
+        "detailed_proposal": {
+          "id": "SG01",
+          "name": "심연의 유리다리",
+          "mode": "4인 협동 우선",
+          "time": "횡단 120초 + 안내·결과 20초, 총 140초 목표",
+          "premise": "무작위 찍기만 하는 게임 대신 가까운 유리의 소리·짧은 진동 단서를 읽고 건넌다. 개인전은 별도 후속 변형이다.",
+          "start": "10쌍의 좌우 발판 중 매 쌍 한 칸이 버틴다. 경로는 라운드 시작 때 고정하며 네 명에게 동일. 이미 확인한 발판 표시를 팀이 공유한다.",
+          "loop": "현재 칸에서 다음 좌우 칸을 두드려 단서 확인 → 경로를 선택해 점프 → 동료에게 안전 칸 알려주기 → 전원 출구 도달.",
+          "inputs": "WASD/마우스/Space 이동·도약, E 근거리 두드리기(0.35초 초안), 핑으로 경로 공유. 음향 단서는 같은 의미의 화면 진동 패턴도 제공한다.",
+          "win": "120초 안에 전원 출구에 도달하면 성공. 세부 시간·점프 거리는 실제 캐릭터 도약 측정으로 조정한다.",
+          "failure": "약한 칸은 접촉 예고 후 깨진다. 팀 구조 3회까지 추락자를 가장 최근 확인된 안전 칸으로 회수하고 총 제한 시간 8초를 차감한다. 네 번째 추락 또는 시간 종료는 실패. 안전 발판은 라운드 내 무너지지 않는다.",
+          "anti_stall": "동료 밀기 충돌은 끄고 자리 겹침은 짧게 허용해 길막을 막는다. 미확인 칸으로 구조하지 않는다. 케이블/테두리는 보행 경로가 아니며 가장자리 꼼수를 검증한다. 이탈 봇도 들은/공유된 단서만 이용한다.",
+          "tests": [
+            "소리를 끄고도 단서 구분",
+            "안전 경로가 항상 존재",
+            "깨지는 유리와 구조 위치의 충돌",
+            "두 명 동시 착지와 테두리 우회 차단"
+          ]
+        },
+        "win_condition_proposed": "도착 여부·진행 거리"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#SG01"
+    },
+    {
+      "id": "KR",
+      "name": "태엽 구름 서킷",
+      "aliases": [
+        "태엽 카트장",
+        "카트",
+        "카트 경주"
+      ],
+      "reference": {
+        "label": "카트라이더",
+        "kind": "game",
+        "basis": "user-direction"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "카트 경주",
+      "mode_proposed": "4인 개인전 레이스",
+      "summary": "카트로 넓은 공중 코너를 돌고, 안전한 큰 길과 좁은 지름길을 선택한다. 실제 아래 바닥은 보이지 않는다.",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/3646d7c9087f27d75b60.webp",
+        "page": "rooms.html#KR",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "선행 소품 후보 있음",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": [
+          "KR01"
+        ]
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#KR",
+        "detailed_proposal": {
+          "id": "KR",
+          "name": "태엽 구름 서킷",
+          "mode": "4인 개인전 레이스",
+          "time": "2바퀴 목표90초, 주행 상한120초 + 안내·결과20초",
+          "premise": "카트로 넓은 공중 코너를 돌고, 안전한 큰 길과 좁은 지름길을 선택한다. 실제 아래 바닥은 보이지 않는다.",
+          "start": "태엽 준비 뒤 동등한 성능의 카트4대에 탑승한다. 2×2 출발 위치는 판마다 순환하고 첫 코너까지12m 직선 확보. 출발 신호 전 가속은 이동으로 이어지지 않는다.",
+          "loop": "코너 진입 → 드리프트로 작은 가속 축적 → 상부/하부 경로 선택 → 예고된 진자를 피함 → 순서 체크포인트를 통과해 두 바퀴 완주.",
+          "inputs": "W/S 가속·제동, A/D 조향, Shift 누르는 동안 드리프트, E 보유 아이템1개 사용. 마우스는 제한된 주변 보기. 진로·경사는 차체가 따르되 시야 롤/강한 흔들림은 억제한다.",
+          "win": "두 바퀴를 먼저 완주한 순서. 120초 미완주자는 완료 바퀴 → 마지막 순서 체크포인트 → 해당 구간 진행 거리로 순위를 매긴다. 같은 판정 틱 결승은 결승선 교차 비율로 비교하고 같으면 공동 순위.",
+          "failure": "난간 밖으로 떨어지면 마지막 정상 체크포인트에2초 후 복귀하고 속도0. 바퀴나 체크포인트를 건너뛰지 않는다. 진자 충돌은 짧은 감속만 주고 무한 회전/라그돌을 만들지 않는다.",
+          "anti_stall": "역주행·5초 진행 없음은 복귀 안내. 각 바퀴 정해진 보급선에서1회만 아이템 획득하고 재왕복 농사 금지. 작은 가속/후방 감속 구름 두 종류만 임시 사용, 감속은 최대1초·연속 면역1초. 봇도 같은 속도/경로/충돌 규칙을 따른다.",
+          "tests": [
+            "폐회로 순서 체크포인트와 두 경로 합류",
+            "4대 나란히 출발·코너 추월 폭",
+            "낙하 복귀로 바퀴 건너뛰기 방지",
+            "120초 중도 종료·같은 틱 결승·진자 예고"
+          ]
+        },
+        "win_condition_proposed": "결승 도착 순위; 제한시간에는 체크포인트 진행도로 순위"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#KR"
+    },
+    {
+      "id": "BC",
+      "name": "살아 있는 체스판",
+      "aliases": [
+        "전투 체스",
+        "토끼가 말"
+      ],
+      "reference": {
+        "label": "체스 · 보드게임",
+        "kind": "board-game",
+        "basis": "user-direction"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "몸으로 하는 체스",
+      "mode_proposed": "2대2 팀 턴제",
+      "summary": "네 토끼가 직접 체스말이다. 손으로 작은 체스말을 움직이는 테이블 게임과 구분한다. 정통 체스 전체 룰을 재현하는 모드는 아니다.",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/7c9b5531b290cb10e1a7.webp",
+        "page": "rooms.html#BC",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "선행 소품 후보 있음",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": [
+          "BC01"
+        ]
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#BC",
+        "detailed_proposal": {
+          "id": "BC",
+          "name": "살아 있는 체스판",
+          "mode": "2대2 팀 턴제",
+          "time": "대국 180초 + 안내·결과 20초, 총 200초 목표",
+          "premise": "네 토끼가 직접 체스말이다. 손으로 작은 체스말을 움직이는 테이블 게임과 구분한다. 정통 체스 전체 룰을 재현하는 모드는 아니다.",
+          "start": "6×6칸, 양끝 왕관 거점 내구도 각 2. A1→B1→A2→B2 순환, 한 행동 최대 8초. 직선 1–2칸 / 대각 1–2칸 / L자 2+1칸 중 역할을 선택한다. 구체 시작 좌표는 BC-board-layout.json의 임시안.",
+          "loop": "자기 턴에 유효 칸 확인 → 하나를 고르면 토끼 몸이 그 칸으로 이동 → 상대 칸이면 상대를 잡기 → 길을 열어 적 왕관 공격. 자기 차례에 이동 대신 역할 변경 또는 패스도 가능하다.",
+          "inputs": "마우스로 칸 바라보기, E 선택/확정, 1/2/3 역할 변경 선택(한 턴 소모). 취소는 확정 전 가능. 이동은 한 번에 확정하고 단순 이동 중 카메라를 강제로 돌리지 않는다. 턴 밖에는 자기 칸 안에서만 시점과 작은 위치 조정.",
+          "win": "유효 이동으로 적 왕관 칸에 도달하면 내구도 1을 깎고 자기 출발 칸으로 돌아온다. 왕관 0 즉시 팀 승리. 시간 종료는 왕관 내구도 → 잡은 상대 횟수로 비교하고 같으면 무승부.",
+          "failure": "잡힌 토끼는 다음 자기 턴 시작 때 빈 자기 진영 뒷줄 칸을 골라 복귀하며 그 턴 행동을 정상 수행한다. 빈 복귀 칸이 없으면 대기, 4행동 연속 팀 상태 변화가 없으면 무승부로 종료. 시간 초과는 패스.",
+          "anti_stall": "같은 편이 있는 칸과 자기 왕관 칸에는 이동 불가. 직선·대각은 중간 점유 칸을 넘지 못하고 L자만 넘는다. 적 왕관 칸도 이동 역할에 맞아야 공격 가능. 아군/적이 점유한 목표 경로와 유효 칸을 1인칭 바닥 표시로 구분한다. 이탈 봇도 같은 합법 행동만 선택한다.",
+          "tests": [
+            "6×6 좌표와 시작점/왕관 중복 없음",
+            "역할별 이동·중간 경로 차단·L자 도약",
+            "잡힘 뒤 복귀와 빈 뒷줄 없음",
+            "8초 패스·4연속 정체·동률·왕관 공격 복귀"
+          ]
+        },
+        "win_condition_proposed": "제한시간 내 상대 왕관 거점 파괴; 동률은 무승부"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#BC"
+    },
+    {
+      "id": "VS",
+      "name": "끝없이 울리는 종탑",
+      "aliases": [
+        "뱀서",
+        "몰이 생존"
+      ],
+      "reference": {
+        "label": "뱀파이어 서바이버즈",
+        "kind": "game",
+        "basis": "user-direction"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "몰이 생존",
+      "mode_proposed": "4인 협동",
+      "summary": "1인칭을 유지한 채 몰려오는 적을 원형 동선으로 유도하고 자동 공격·짧은 성장 선택을 즐긴다.",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/ab542c00d547873047ac.webp",
+        "page": "rooms.html#VS",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "선행 소품 후보 있음",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": [
+          "VS01"
+        ]
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#VS",
+        "detailed_proposal": {
+          "id": "VS",
+          "name": "끝없이 울리는 종탑",
+          "mode": "4인 협동",
+          "time": "생존 180초 + 안내·결과 20초, 총 200초 목표",
+          "premise": "1인칭을 유지한 채 몰려오는 적을 원형 동선으로 유도하고 자동 공격·짧은 성장 선택을 즐긴다.",
+          "start": "각자 같은 기본 공격으로 시작. 3단계 웨이브와 마지막 30초 정예 파도. 적은 시야 밖 유효 가장자리에서 들어오며 플레이어 바로 뒤에 생성하지 않는다.",
+          "loop": "무리를 유도하며 이동 → 자동 공격으로 길 열기 → 성장 조각 줍기 → 짧은 강화 선택 → 쓰러진 동료 구조하며 마지막 파도 버티기.",
+          "inputs": "WASD/마우스 이동·관찰, 전방 시야 안 우선 자동 공격, Space 짧은 회피(4초 쿨다운 초안), E 근거리 2초 구조. 뒤쪽 위험은 방향 표시와 소리로 예고한다.",
+          "win": "180초 종료 시 활동 중인 플레이어가 최소 1명이면 팀 생존 성공. 정예 처치는 추가 점수이며 종료 후 무한 청소를 요구하지 않는다.",
+          "failure": "쓰러져도 동료가 구조 가능. 전원 동시에 쓰러지면 즉시 실패. 낙하자는 가장 가까운 안전 바닥에 쓰러진 상태로 회수해 구조 기회를 남긴다.",
+          "anti_stall": "30/75/120초의 강화 선택은 개인별 5초 후 기본값 자동 선택, 게임을 멈추지 않는다. 무적 대기 구역은 없다. 적 수 상한/성능·시각 효과 밀도를 실제 성능 측정 후 정한다.",
+          "tests": [
+            "8자 루프의 막다른 구간 없음",
+            "1인칭 뒤쪽 위험 경고",
+            "강화 선택 중 이동과 자동 선택",
+            "다중 구조·전원 쓰러짐·시간 종료"
+          ]
+        },
+        "win_condition_proposed": "제한시간 생존과 마지막 웨이브 정리"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#VS"
+    },
+    {
+      "id": "PG04",
+      "name": "색깔 발판 대소동",
+      "aliases": [],
+      "reference": {
+        "label": "마리오 파티 시리즈 · 장르 참고",
+        "kind": "game-series-genre",
+        "basis": "user-direction-no-specific-minigame"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "짧은 파티게임",
+      "mode_proposed": "개인전",
+      "summary": "짧은 신호를 보고 안전한 색 발판으로 이동",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#PG04",
+        "detailed_proposal": null,
+        "win_condition_proposed": "누적 생존 횟수"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#PG04"
+    },
+    {
+      "id": "UP",
+      "name": "우주까지 벼리는 대장간",
+      "aliases": [
+        "검 키우기",
+        "검 강화",
+        "1강",
+        "15강",
+        "우주검",
+        "블랙홀"
+      ],
+      "reference": {
+        "label": "검 강화 · 참고작 미정",
+        "kind": "genre",
+        "basis": "title-unspecified"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "검 강화",
+      "mode_proposed": "개인전",
+      "summary": "재료를 모아 1~15강 중 가능한 단계로 검을 바꾸고 짧은 시험 타격으로 성과 비교",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [
+        "1강부터 15강까지 장식만 쌓는 방식이 아니라 전체 실루엣과 구조 자체가 달라진다. 우주를 베거나 천지를 가르는 과장도 허용하되 공통 그림체는 유지한다.",
+        "15강은 칼다운 긴 날과 손잡이, 별처럼 갈라진 밑몸체와 열린 홈, 별도 블랙홀이 기준이다. 블랙홀 내부는 검정 원이고 가장자리에 아주 희미한 보라색 빛만 둔다.",
+        "15종 검과 각 3단계 LOD·별도 검정 핵/희미한 테두리의 모델 후보가 있다. 최종 외형 승인, 손 피팅, 강화 규칙과 실시간 왜곡 효과는 남아 있다."
+      ],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "선행 소품 후보 있음",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": [
+          "UP01"
+        ]
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#UP",
+        "detailed_proposal": null,
+        "win_condition_proposed": "도달 단계와 시험 점수"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#UP"
+    },
+    {
+      "id": "SG02",
+      "name": "돌아보는 정원",
+      "aliases": [
+        "무궁화꽃이 피었습니다",
+        "무궁화 꽃",
+        "오징어게임"
+      ],
+      "reference": {
+        "label": "오징어 게임 — 무궁화꽃이 피었습니다 · 드라마",
+        "kind": "television",
+        "basis": "user-direction"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "정지·이동",
+      "mode_proposed": "4인 개인전 정지·이동",
+      "summary": "부엉이가 등을 돌렸을 때 이동하고 눈이 켜지기 전에 멈춘다. 중앙 구간은 감시를 피해 숨는 미로가 아니라 반응 속도를 겨루는 열린 길이다.",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [
+        "감시자가 등을 돌린 동안 이동하고 돌아볼 때 멈춘다. 현재 외형 후보는 독자적인 거대 기계 부엉이다."
+      ],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/d2ffe1f0cfed343ef9b7.webp",
+        "page": "rooms.html#SG02",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "선행 소품 후보 있음",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": [
+          "SG02"
+        ]
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#SG02",
+        "detailed_proposal": {
+          "id": "SG02",
+          "name": "돌아보는 정원",
+          "mode": "4인 개인전 정지·이동",
+          "time": "진행90초 + 안내·결과20초, 총110초 목표",
+          "premise": "부엉이가 등을 돌렸을 때 이동하고 눈이 켜지기 전에 멈춘다. 중앙 구간은 감시를 피해 숨는 미로가 아니라 반응 속도를 겨루는 열린 길이다.",
+          "start": "네 명 같은 출발선에 서고 3초 설명 후 시작. 이동 가능한 녹색 링/두 번 종소리, 멈춰야 하는 호박색 링/한 번 종소리로 색에만 의존하지 않는다.",
+          "loop": "등 돌림3–5초 동안 전진 →0.6초 회전·예고 → 감시2–4초 정지 → 다시 이동. 같은 한 라운드에서는 모든 플레이어에게 동일한 신호와 난수 순서를 적용한다.",
+          "inputs": "WASD 이동, 마우스 주변 보기. 점프·밀치기·아이템은 이번 방에서 잠근다. 시선 이동은 위반으로 보지 않고 몸의 평면 이동만 판단한다.",
+          "win": "결승54m 도착 순서. 90초 미도착자는 확정 체크포인트 → 현재 진행 거리 순. 같은 틱 결승은 선 교차 비율, 같으면 공동 순위. 결승 판정이 먼저인 틱에는 도착을 유지한다.",
+          "failure": "감시 시작0.15초 뒤부터 기준 위치에서 평면3cm 초과 이동하면 위반. 첫0.15초는 감속 여유이며 눈/종소리 상태와 맞춘다. 위반 시 마지막18/36m 확정선으로 되돌리고1초 정지; 출발 전 위반은0m. 즉사/영구 탈락은 없다.",
+          "anti_stall": "선은 녹색 이동 중 완전히 통과해야 확정한다. 플레이어끼리 밀어 위반을 유도하지 못하게 해당 라운드에서 상호 몸 충돌을 끈다. 정원 옆 장식 구역은 진입 불가로 제한하고 숨으면 통과하는 허점을 만들지 않는다. 봇에도 예고 후 반응 지연을 주고 결과를 자동 성공시키지 않는다.",
+          "tests": [
+            "카메라 회전·정지 입력·잔여 관성 구별",
+            "색/소리/회전/판정 시작 같은 타임라인",
+            "체크포인트 턱/장식 가림/옆길 우회 방지",
+            "밀림 위반 방지·같은 틱 결승·90초 종료"
+          ]
+        },
+        "win_condition_proposed": "도착 순서·진행 거리"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#SG02"
+    },
+    {
+      "id": "LOBBY",
+      "name": "대기 로비",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "existing-foundation",
+      "category_label": "기본 공간",
+      "genre": "기본 공간",
+      "mode_proposed": "편성 미정",
+      "summary": "개인 부스에서 자기 태엽을 꽂고 자기 캡슐에 탑승한다. 전원 준비 후 문이 잠기고 아래로 하강해 게임을 시작한다.",
+      "session_cap_seconds_proposed": null,
+      "duration_note": "진행 공간 · 미니게임 시간과 별도",
+      "design_notes": [
+        "이전 공용 바닥 상승 시작은 최신 개인 캡슐 하강 방식으로 대체됐다."
+      ],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#LOBBY"
+    },
+    {
+      "id": "DICE",
+      "name": "주사위 방",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "existing-foundation",
+      "category_label": "기본 공간",
+      "genre": "기본 공간",
+      "mode_proposed": "편성 미정",
+      "summary": "함께 주사위를 굴리고 다음 방으로 이동",
+      "session_cap_seconds_proposed": null,
+      "duration_note": "진행 공간 · 미니게임 시간과 별도",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#DICE"
+    },
+    {
+      "id": "theme-pantry",
+      "name": "뒤집힌 식료품실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "개인전",
+      "summary": "주문판에 잠깐 보인 재료를 기억해 자기 바구니에 담는다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-pantry"
+    },
+    {
+      "id": "theme-music",
+      "name": "자장가 다락",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "협동",
+      "summary": "서로 다른 소리의 악기를 순서대로 눌러 멜로디를 복원한다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-music"
+    },
+    {
+      "id": "theme-archive",
+      "name": "수상한 기록실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "개인전",
+      "summary": "열린 서랍의 순서를 기억하고 바뀐 물건 하나를 먼저 찾는다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-archive"
+    },
+    {
+      "id": "theme-library",
+      "name": "기울어진 도서관",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "팀전",
+      "summary": "두 명이 긴 책더미를 떨어뜨리지 않고 옮겨 책장을 채운다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-library"
+    },
+    {
+      "id": "theme-portraits",
+      "name": "움직이는 초상화실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "협동",
+      "summary": "짧게 공개되는 인물 포즈를 네 명의 위치와 방향으로 맞춘다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-portraits"
+    },
+    {
+      "id": "theme-shadows",
+      "name": "그림자 극장",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "팀전",
+      "summary": "조명과 물건 위치를 맞춰 목표 실루엣을 만든다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-shadows"
+    },
+    {
+      "id": "theme-observatory",
+      "name": "오래된 관측실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "개인전",
+      "summary": "회전하는 별판을 보고 필요한 표식을 제일 먼저 조준한다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-observatory"
+    },
+    {
+      "id": "theme-greenhouse",
+      "name": "덩굴 온실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "협동",
+      "summary": "넘치는 물을 분배해 네 화분의 수위를 함께 유지한다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [
+        {
+          "ids": [
+            "FA",
+            "PA",
+            "PG07"
+          ],
+          "note": "온실 소재를 공유하지만 수위 유지·재료 조합·영역 칠하기·깃발 쟁탈로 놀이가 다르다."
+        }
+      ],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-greenhouse"
+    },
+    {
+      "id": "theme-mushrooms",
+      "name": "버섯 저장고",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "개인전",
+      "summary": "안전한 색 순서로 나타나는 버섯 발판을 밟아 버틴다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-mushrooms"
+    },
+    {
+      "id": "theme-honey",
+      "name": "벌꿀 작업실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "팀전",
+      "summary": "무거운 벌꿀 항아리를 옮겨 팀의 저울을 목표치에 맞춘다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-honey"
+    },
+    {
+      "id": "theme-pond",
+      "name": "연못 관리실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "협동",
+      "summary": "떠다니는 마개를 잡아 누수 구멍을 함께 막는다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-pond"
+    },
+    {
+      "id": "theme-orchard",
+      "name": "바람 부는 과수실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "개인전",
+      "summary": "바람 방향에 따라 떨어지는 과일을 바구니로 받아낸다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-orchard"
+    },
+    {
+      "id": "theme-laundry",
+      "name": "유령 세탁실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "팀전",
+      "summary": "색이 섞인 빨랫감을 찾아 빨랫줄 순서에 맞춘다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-laundry"
+    },
+    {
+      "id": "theme-kitchen",
+      "name": "야간 주방",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "협동",
+      "summary": "서로 다른 조리 단계를 맡아 시간 안에 같은 주문을 완성한다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [
+        {
+          "ids": [
+            "CK"
+          ],
+          "note": "같은 주방 계열. 중복 제작 전에 두 기획의 통합 여부를 정한다."
+        }
+      ],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-kitchen"
+    },
+    {
+      "id": "theme-bath",
+      "name": "넘치는 욕실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "개인전",
+      "summary": "낮아지는 안전 발판을 따라 올라가며 분출 물줄기를 피한다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-bath"
+    },
+    {
+      "id": "theme-sewing",
+      "name": "마녀의 재봉실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "팀전",
+      "summary": "긴 실을 끌어 길을 만들고 팀 표식 구멍을 차례대로 통과한다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-sewing"
+    },
+    {
+      "id": "theme-dining",
+      "name": "불안한 만찬실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "협동",
+      "summary": "기울어지는 식탁 위 식기를 균형에 맞게 나눠 놓는다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-dining"
+    },
+    {
+      "id": "theme-arcade",
+      "name": "고장 난 유희실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "개인전",
+      "summary": "등이 켜지는 표적을 눌러 점수를 얻고 함정 표적은 피한다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-arcade"
+    },
+    {
+      "id": "theme-marbles",
+      "name": "구슬 공작실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "팀전",
+      "summary": "각자 조절하는 경사판을 연결해 구슬을 목표 구멍에 넣는다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-marbles"
+    },
+    {
+      "id": "theme-puppets",
+      "name": "인형 무대",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "협동",
+      "summary": "멈춰야 하는 박자에 네 인형의 자세를 동시에 맞춘다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-puppets"
+    },
+    {
+      "id": "theme-blocks",
+      "name": "블록 창고",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "개인전",
+      "summary": "제시된 높이까지 흔들리는 블록을 쌓아 버틴다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-blocks"
+    },
+    {
+      "id": "theme-bells",
+      "name": "종지기 방",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "협동",
+      "summary": "바닥 진동과 종소리 순서를 읽고 해당 위치에서 함께 울린다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-bells"
+    },
+    {
+      "id": "theme-vault",
+      "name": "봉인 금고실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "팀전",
+      "summary": "서로 다른 단서의 다이얼을 공유해 팀 금고를 먼저 연다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-vault"
+    },
+    {
+      "id": "theme-sand",
+      "name": "모래시계실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "협동",
+      "summary": "모래가 바닥나기 전에 무거운 시계를 번갈아 뒤집어 균형을 유지한다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-sand"
+    },
+    {
+      "id": "theme-relics",
+      "name": "유물 운반실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "개인전",
+      "summary": "금이 간 유물을 충격 없이 운반해 점수를 지킨다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [
+        {
+          "ids": [
+            "CG"
+          ],
+          "note": "충격 없이 물건을 운반하는 놀이와 소품을 공유하는 후보들이다."
+        }
+      ],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-relics"
+    },
+    {
+      "id": "theme-lenses",
+      "name": "빛의 봉인실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "협동",
+      "summary": "거울과 렌즈를 옮겨 네 수신기에 동시에 빛을 보낸다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-lenses"
+    },
+    {
+      "id": "theme-final",
+      "name": "마지막 태엽실",
+      "aliases": [],
+      "reference": {
+        "label": "참고작 미정",
+        "basis": "unspecified"
+      },
+      "category": "theme",
+      "category_label": "기존 테마",
+      "genre": "기존 테마",
+      "mode_proposed": "협동",
+      "summary": "앞서 얻은 장치를 네 자리에 맞추고 추격자가 닿기 전에 문을 연다",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": null,
+        "detailed_proposal": null,
+        "win_condition_proposed": null
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#theme-final"
+    },
+    {
+      "id": "HG",
+      "name": "마지막 잔치의 숲",
+      "aliases": [
+        "헝거게임",
+        "자원 경쟁"
+      ],
+      "reference": {
+        "label": "헝거게임 · 영화·소설",
+        "kind": "film-novel",
+        "basis": "user-direction"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "자원 경쟁",
+      "mode_proposed": "4인 개인전 자원 생존",
+      "summary": "식량과 적은 탄약을 확보하며 숲의 가림과 소리를 이용한다. BR의 소총/폭풍 수축과 달리 자원 고갈과 가까운 사냥이 중심이다.",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/57a7c58ac6088af66f86.webp",
+        "page": "rooms.html#HG",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "선행 소품 후보 있음",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": [
+          "HG01"
+        ]
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#HG",
+        "detailed_proposal": {
+          "id": "HG",
+          "name": "마지막 잔치의 숲",
+          "mode": "4인 개인전 자원 생존",
+          "time": "생존150초 + 안내·결과20초, 총170초 목표",
+          "premise": "식량과 적은 탄약을 확보하며 숲의 가림과 소리를 이용한다. BR의 소총/폭풍 수축과 달리 자원 고갈과 가까운 사냥이 중심이다.",
+          "start": "모두 같은 짧은 창·체력100·식량시간30초로 출발. 중앙 보급은 많지만 노출되고, 세 외곽 경로에는 적은 식량/활/회복이 고르게 나뉜다. 시작점에서 다른 시작점 직접 공격선은 막는다.",
+          "loop": "중앙 잔치를 노리거나 외곽에서 식량 획득 → 소리와 흔적을 보고 추적/회피 → 창 또는 한정된 화살로 싸움 → 남은 식량을 관리하며 생존.",
+          "inputs": "WASD/마우스 이동·보기, 좌클릭 창 공격 또는 활 발사, 우클릭 창 방어 또는 활 당김, E 자원 줍기/먹기, 숫자1·2 장비 전환. 식량 획득은 짧은 접촉 한 번으로 처리한다.",
+          "win": "마지막 생존자 즉시 승리. 150초 여러 명 생존이면 체력 비율 → 남은 식량시간 → 상대 유효 피해 순. 완전 동률은 공동 순위. 같은 판정 틱 마지막 상호 처치는 공동 순위.",
+          "failure": "식량시간0부터 초당 체력2 감소. 식량1개는20초 보충, 최대60초. 치유1개는 체력25 회복하며 공격 중 사용 불가. 탈락자는 남은 라운드 관전만 하고 숨은 위치 정보를 전달하지 않는다. 세이브/스킨 손실 없음.",
+          "anti_stall": "활 획득 시3발, 최대6발; 빗나간 자기 화살 회수 가능. 자원은 사전 지정 위치에 제한 수량만 있고 자동 무한 회복 없음. 105초 이후10초마다 짧은 발소리 표식으로 가까운 방향만 알린다. 전망대에 영구 안전지대/일방 공격틈이 생기지 않게 두 접근로를 확보한다. 봇은 가림 뒤 좌표를 읽지 않는다.",
+          "tests": [
+            "각 시작점 첫 식량까지 동등한 시간",
+            "잔치/개울/수풀/전망대의 위험과 보상",
+            "창·화살의 엄폐 판정과 회수 중복 방지",
+            "식량0·마지막 동시 탈락·150초 동률"
+          ]
+        },
+        "win_condition_proposed": "최후 생존 또는 제한시간 생존 점수"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#HG"
+    },
+    {
+      "id": "PG01",
+      "name": "무너지는 식탁",
+      "aliases": [],
+      "reference": {
+        "label": "마리오 파티 시리즈 · 장르 참고",
+        "kind": "game-series-genre",
+        "basis": "user-direction-no-specific-minigame"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "짧은 파티게임",
+      "mode_proposed": "개인전",
+      "summary": "예고 후 무너지는 발판 사이로 이동",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "선행 소품 후보 있음",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": [
+          "PG01"
+        ]
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#PG01",
+        "detailed_proposal": null,
+        "win_condition_proposed": "마지막까지 남기"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#PG01"
+    },
+    {
+      "id": "PG02",
+      "name": "째깍 폭탄 돌리기",
+      "aliases": [],
+      "reference": {
+        "label": "마리오 파티 시리즈 · 장르 참고",
+        "kind": "game-series-genre",
+        "basis": "user-direction-no-specific-minigame"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "짧은 파티게임",
+      "mode_proposed": "개인전",
+      "summary": "다가가서 폭탄을 건네고 폭발 직전에 거리 벌리기",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "선행 소품 후보 있음",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": [
+          "PG02"
+        ]
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#PG02",
+        "detailed_proposal": null,
+        "win_condition_proposed": "폭발 순간 보유하지 않기"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#PG02"
+    },
+    {
+      "id": "PG03",
+      "name": "미끄러운 다과회",
+      "aliases": [],
+      "reference": {
+        "label": "마리오 파티 시리즈 · 장르 참고",
+        "kind": "game-series-genre",
+        "basis": "user-direction-no-specific-minigame"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "짧은 파티게임",
+      "mode_proposed": "개인전 / 2대2",
+      "summary": "미끄러운 바닥에서 서로 밀어 테두리 밖으로 보내기",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#PG03",
+        "detailed_proposal": null,
+        "win_condition_proposed": "생존 또는 팀 점수"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#PG03"
+    },
+    {
+      "id": "PG05",
+      "name": "네 명의 줄넘기",
+      "aliases": [],
+      "reference": {
+        "label": "마리오 파티 시리즈 · 장르 참고",
+        "kind": "game-series-genre",
+        "basis": "user-direction-no-specific-minigame"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "짧은 파티게임",
+      "mode_proposed": "4인 협동 / 개인전",
+      "summary": "회전하는 낮은 막대를 타이밍에 맞춰 넘기",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "선행 소품 후보 있음",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": [
+          "PG03"
+        ]
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#PG05",
+        "detailed_proposal": null,
+        "win_condition_proposed": "성공 횟수 또는 마지막 생존"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#PG05"
+    },
+    {
+      "id": "PG06",
+      "name": "기울어진 배달",
+      "aliases": [],
+      "reference": {
+        "label": "마리오 파티 시리즈 · 장르 참고",
+        "kind": "game-series-genre",
+        "basis": "user-direction-no-specific-minigame"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "짧은 파티게임",
+      "mode_proposed": "2대2",
+      "summary": "둘이 트레이를 들고 장애물을 피해 물건 운반",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#PG06",
+        "detailed_proposal": null,
+        "win_condition_proposed": "남은 물건과 도착 시간"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#PG06"
+    },
+    {
+      "id": "PG07",
+      "name": "깃발 쟁탈 식물원",
+      "aliases": [],
+      "reference": {
+        "label": "마리오 파티 시리즈 · 장르 참고",
+        "kind": "game-series-genre",
+        "basis": "user-direction-no-specific-minigame"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "짧은 파티게임",
+      "mode_proposed": "2대2",
+      "summary": "상대 거점 물건을 잡아 자기 거점으로 운반",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [
+        {
+          "ids": [
+            "theme-greenhouse",
+            "FA",
+            "PA"
+          ],
+          "note": "온실 소재를 공유하지만 수위 유지·재료 조합·영역 칠하기·깃발 쟁탈로 놀이가 다르다."
+        }
+      ],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#PG07",
+        "detailed_proposal": null,
+        "win_condition_proposed": "제한시간 내 반납 수"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#PG07"
+    },
+    {
+      "id": "PG08",
+      "name": "리듬 압력실",
+      "aliases": [],
+      "reference": {
+        "label": "마리오 파티 시리즈 · 장르 참고",
+        "kind": "game-series-genre",
+        "basis": "user-direction-no-specific-minigame"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "짧은 파티게임",
+      "mode_proposed": "4인 협동",
+      "summary": "눈에 보이는 박자 신호에 맞춰 밸브를 돌려 과압 방지",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [
+        {
+          "ids": [
+            "theme-pressure"
+          ],
+          "note": "압력실 장치를 공유할 수 있으나 협동 압력 조절과 리듬 판정은 별도 기획이다."
+        }
+      ],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#PG08",
+        "detailed_proposal": null,
+        "win_condition_proposed": "연속 성공과 누수 방지"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#PG08"
+    },
+    {
+      "id": "PG09",
+      "name": "빛을 기억하는 서랍",
+      "aliases": [],
+      "reference": {
+        "label": "마리오 파티 시리즈 · 장르 참고",
+        "kind": "game-series-genre",
+        "basis": "user-direction-no-specific-minigame"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "짧은 파티게임",
+      "mode_proposed": "개인전 / 4인 협동",
+      "summary": "점등 순서를 기억해 해당 서랍이나 버튼을 누르기",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#PG09",
+        "detailed_proposal": null,
+        "win_condition_proposed": "정확한 순서 수"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#PG09"
+    },
+    {
+      "id": "PG10",
+      "name": "바람 부는 복도",
+      "aliases": [],
+      "reference": {
+        "label": "마리오 파티 시리즈 · 장르 참고",
+        "kind": "game-series-genre",
+        "basis": "user-direction-no-specific-minigame"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "짧은 파티게임",
+      "mode_proposed": "개인전",
+      "summary": "바람과 움직이는 발판을 피해 결승선 도달",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#PG10",
+        "detailed_proposal": null,
+        "win_condition_proposed": "도착 순위"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#PG10"
+    },
+    {
+      "id": "CK",
+      "name": "야간 주방 소동",
+      "aliases": [],
+      "reference": {
+        "label": "협동 요리 · 참고작 미정",
+        "kind": "genre",
+        "basis": "title-unspecified"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "협동 요리",
+      "mode_proposed": "4인 협동 / 2대2",
+      "summary": "재료 운반·조립·배달 역할을 바꿔 주문 처리",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [
+        {
+          "ids": [
+            "theme-kitchen"
+          ],
+          "note": "같은 주방 계열. 중복 제작 전에 두 기획의 통합 여부를 정한다."
+        }
+      ],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#CK",
+        "detailed_proposal": null,
+        "win_condition_proposed": "맞는 주문 수"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#CK"
+    },
+    {
+      "id": "HT",
+      "name": "소리 없는 금고",
+      "aliases": [],
+      "reference": {
+        "label": "협동 잠입 · 참고작 미정",
+        "kind": "genre",
+        "basis": "title-unspecified"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "협동 잠입",
+      "mode_proposed": "4인 협동",
+      "summary": "경비 시선을 피해 잠금을 풀고 무거운 목표물을 함께 운반",
+      "session_cap_seconds_proposed": 600,
+      "duration_note": "전체 세션 상한 10분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#HT",
+        "detailed_proposal": null,
+        "win_condition_proposed": "경보 한계 안에서 탈출"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#HT"
+    },
+    {
+      "id": "PP",
+      "name": "서로 다른 문",
+      "aliases": [],
+      "reference": {
+        "label": "짝 퍼즐 · 참고작 미정",
+        "kind": "genre",
+        "basis": "title-unspecified"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "짝 퍼즐",
+      "mode_proposed": "2대2 / 4인 협동",
+      "summary": "서로 다른 구역에서 보이는 단서를 전달하고 문·스위치를 연결",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#PP",
+        "detailed_proposal": null,
+        "win_condition_proposed": "연결 퍼즐 완료 시간"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#PP"
+    },
+    {
+      "id": "PA",
+      "name": "페인트 온실",
+      "aliases": [],
+      "reference": {
+        "label": "영역 칠하기 · 참고작 미정",
+        "kind": "genre",
+        "basis": "title-unspecified"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "영역 칠하기",
+      "mode_proposed": "2대2",
+      "summary": "이동하며 팀 색을 칠하고 중앙 구역을 차지",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [
+        {
+          "ids": [
+            "theme-greenhouse",
+            "FA",
+            "PG07"
+          ],
+          "note": "온실 소재를 공유하지만 수위 유지·재료 조합·영역 칠하기·깃발 쟁탈로 놀이가 다르다."
+        }
+      ],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#PA",
+        "detailed_proposal": null,
+        "win_condition_proposed": "마지막 점유 면적"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#PA"
+    },
+    {
+      "id": "BH",
+      "name": "거인의 찻잔",
+      "aliases": [],
+      "reference": {
+        "label": "협동 보스전 · 참고작 미정",
+        "kind": "genre",
+        "basis": "title-unspecified"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "협동 보스",
+      "mode_proposed": "4인 협동",
+      "summary": "큰 적의 공격 신호를 보고 회피·약점 공격·동료 구조",
+      "session_cap_seconds_proposed": 600,
+      "duration_note": "전체 세션 상한 10분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#BH",
+        "detailed_proposal": null,
+        "win_condition_proposed": "제한시간 보스 제압"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#BH"
+    },
+    {
+      "id": "TB",
+      "name": "떨어지는 블록 공장",
+      "aliases": [],
+      "reference": {
+        "label": "낙하 블록 생존 · 참고작 미정",
+        "kind": "genre",
+        "basis": "title-unspecified"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "낙하 블록",
+      "mode_proposed": "개인전 / 4인 협동",
+      "summary": "낙하 예고를 보고 블록 배치를 이용해 올라가거나 탈출",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#TB",
+        "detailed_proposal": null,
+        "win_condition_proposed": "높이 또는 생존"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#TB"
+    },
+    {
+      "id": "WG",
+      "name": "움직이는 담장",
+      "aliases": [
+        "벽바둑",
+        "영역 게임"
+      ],
+      "reference": {
+        "label": "데블스 플랜: 데스룸 — 벽바둑",
+        "kind": "television-game",
+        "basis": "user-direction"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "벽바둑",
+      "mode_proposed": "개인전",
+      "summary": "자기 말을 이동하고 인접 경계에 벽을 세워 영역을 나눔",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "공용 테이블 방 참고 시안",
+        "image": "media/3c43d927c1201595aed6.webp",
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#WG",
+        "detailed_proposal": null,
+        "win_condition_proposed": "종료 시 자기 말만 있는 독립 영역의 칸 수 비교; 공동 영역은 무득점"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#WG"
+    },
+    {
+      "id": "CH",
+      "name": "사슬 부유섬",
+      "aliases": [
+        "한 줄로 네 토끼"
+      ],
+      "reference": {
+        "label": "Chained Together",
+        "kind": "game",
+        "basis": "agent-provisional-reference"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "연결 점프",
+      "mode_proposed": "4인 협동 연결 점프",
+      "summary": "네 명이 순서대로 한 줄로 연결되어 짧은 점프를 맞추고, 떨어진 동료를 발판 위에서 구조한다. 시작 앵커는 출발 시 해제되어 이동을 막지 않는다.",
+      "session_cap_seconds_proposed": 600,
+      "duration_note": "전체 세션 상한 10분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/824e6baf4d46a487077b.webp",
+        "page": "rooms.html#CH",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#CH",
+        "detailed_proposal": {
+          "id": "CH",
+          "name": "사슬 부유섬",
+          "mode": "4인 협동 연결 점프",
+          "time": "플레이120초 + 설명·결과20초",
+          "premise": "네 명이 순서대로 한 줄로 연결되어 짧은 점프를 맞추고, 떨어진 동료를 발판 위에서 구조한다. 시작 앵커는 출발 시 해제되어 이동을 막지 않는다.",
+          "start": "넓은 첫 섬에서 연결 순서를 표시하고 줄 여유를 연습한다. 모든 참가자가 준비하면 출발 앵커가 해제되고 타이머가 시작된다. 줄 길이와 점프 성능은 모두 동일하며 체형에 따른 도달 차이는 보정한다.",
+          "loop": "앞사람이 발판 위치 확인 → 줄에 여유를 둔 동시 점프 → 넓은 섬에 재집결 → 매달린 동료가 있으면 위쪽 동료가 버티며 끌어올리기 → 출구에 함께 도착.",
+          "inputs": "WASD 이동, 마우스 보기, Space 점프/매달린 상태의 턱 오르기, E 누르기 구조 당김. E 구조는 발을 딛고 있을 때만 작동하며 순간 끌어당김·본 길이 늘림으로 해결하지 않는다.",
+          "win": "120초 안에 네 명 모두 마지막 섬에 도착하면 협동 성공. 보너스는 남은 시간보다 낙하 구조 횟수와 전원 도착을 우선 표시한다.",
+          "failure": "한 명 낙하는 즉시 탈락이 아니며 줄에 매달린다. 전원 낙하하거나8초 동안 아무도 지면 접촉이 없으면 마지막 전원 집결 섬으로 함께 복귀하고5초를 차감한다. 타임아웃은 방 실패로 공통 추격 페널티에 연결한다.",
+          "anti_stall": "줄 충돌이 모서리에 걸리거나 상대적 길이가 제한을 넘으면 카메라를 튕기지 않고 집결 복귀를 제공한다. 한 명이 의도적으로 역방향으로 당겨도 나머지를 순간 가속하지 않는다. 봇/연결 끊김 대체자는 같은 도달·줄 규칙을 따른다.",
+          "tests": [
+            "4인 연결 세 구간과 한 명 낙하 구조",
+            "실제 점프 범위 내 모든 틈·단차",
+            "줄 모서리 걸림과 전원 낙하 복귀",
+            "1인칭 시야 흔들림·멀미·조작 가독성"
+          ]
+        },
+        "win_condition_proposed": "제한시간 내 연결을 유지한 채 목표 발판 도달"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#CH"
+    },
+    {
+      "id": "CG",
+      "name": "심연 운반 창고",
+      "aliases": [
+        "깨지면 월급 없다"
+      ],
+      "reference": {
+        "label": "R.E.P.O.",
+        "kind": "game",
+        "basis": "agent-provisional-reference"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "조심히 운반",
+      "mode_proposed": "4인 협동 귀중품 운반",
+      "summary": "도자기·유리 기기·작은 금속 물건을 골라 안전하게 계량대에 옮기고 손상 후 남은 가치의 목표 합계를 채운다. 모든 물건을 옮길 필요는 없다.",
+      "session_cap_seconds_proposed": 600,
+      "duration_note": "전체 세션 상한 10분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [
+        {
+          "ids": [
+            "theme-relics"
+          ],
+          "note": "충격 없이 물건을 운반하는 놀이와 소품을 공유하는 후보들이다."
+        }
+      ],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/83a4f6b507c0b43962ee.webp",
+        "page": "rooms.html#CG",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#CG",
+        "detailed_proposal": {
+          "id": "CG",
+          "name": "심연 운반 창고",
+          "mode": "4인 협동 귀중품 운반",
+          "time": "플레이120초 + 설명·결과20초",
+          "premise": "도자기·유리 기기·작은 금속 물건을 골라 안전하게 계량대에 옮기고 손상 후 남은 가치의 목표 합계를 채운다. 모든 물건을 옮길 필요는 없다.",
+          "start": "구조는 고정, 가치와 배치만 검증된 후보 안에서 바꾼다. 임시 총가치160 중 목표100, 가벼운 물건4개와 두 명 운반 물건2개. 각 물건 초기 가치·무게·남은 내구도를 집기 전에 확인할 수 있게 한다.",
+          "loop": "운반할 물건 선택 → 가벼운 것은 한 명, 큰 것은 두 명이 손잡이를 잡음 → 차단봉 예고와 좁은 문턱 확인 → 경사로를 내려감 → 계량대에 안전하게 놓음 → 완전히 정지하면 가치 확정·회수.",
+          "inputs": "WASD 이동, 마우스 보기, E 집기/놓기, 보조 운반자는 반대 손잡이에 E. Shift는 빈손에서만 달리기. 두 명 운반 시 더 느린 참여자의 의도와 물건 충돌을 반영하며 강한 화면 흔들림을 주지 않는다.",
+          "win": "계량대에서1초 동안 안정된 물건의 잔존 가치 합계가100 이상이면 성공. 같은 물건은 고유 ID로 한 번만 계산하고 회수 완료 뒤 사라진다.",
+          "failure": "충돌 강도에 따른 손상은 물건별로 다르게 적용하고 정지 접촉 떨림은 손상에서 제외한다. 심연 낙하는 해당 물건 가치0, 플레이어는 가까운 대기 구역으로 복귀한다. 시간 종료 또는 남은 운송 가능 가치가 목표보다 작아지면 실패를 안내한다.",
+          "anti_stall": "도중 한 명이 놓거나 연결이 끊기면 물건이 튀지 않고 무게를 받아 천천히 내려간다. 통로 감시자는 소리·빛으로 위치를 예고하며 운반물을 즉시 삭제하지 않는다. 초기 물건 가치가 목표를 충족하는지 생성 시 검사하고 막힌 물건에는 비용이 표시된 복귀 기능을 제공한다.",
+          "tests": [
+            "동일 물건 중복 점수 방지·목표 달성/불가능 판정",
+            "두 손잡이 운반·한 명 놓기·연결 끊김",
+            "문턱/경사로/차단봉 끼임과 물리 떨림 손상 방지",
+            "손 접촉·실제 받침 높이·반출 대기 구역"
+          ]
+        },
+        "win_condition_proposed": "제한시간 내 파손을 반영한 목표 운송 가치 달성"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#CG"
+    },
+    {
+      "id": "VF",
+      "name": "찍고 살아 돌아와",
+      "aliases": [],
+      "reference": {
+        "label": "Content Warning",
+        "kind": "game",
+        "basis": "agent-provisional-reference"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "위험 촬영",
+      "mode_proposed": "4인 협동",
+      "summary": "한 명이 카메라를 들고 동료와 괴물의 위험한 장면을 담은 뒤 필름 회수",
+      "session_cap_seconds_proposed": 600,
+      "duration_note": "전체 세션 상한 10분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": false,
+        "kind": "공간 시안 준비 전",
+        "image": null,
+        "page": null,
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "선행 소품 후보 있음",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": [
+          "VF01"
+        ]
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#VF",
+        "detailed_proposal": null,
+        "win_condition_proposed": "서로 다른 사건 기록 점수와 필름 회수 성공"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#VF"
+    },
+    {
+      "id": "AN",
+      "name": "반복 복도",
+      "aliases": [
+        "다시 그 복도"
+      ],
+      "reference": {
+        "label": "8번 출구",
+        "kind": "game",
+        "basis": "agent-provisional-reference"
+      },
+      "category": "genre",
+      "category_label": "장르 미니게임",
+      "genre": "이상 현상 찾기",
+      "mode_proposed": "4인 협동 이상현상 관찰",
+      "summary": "같은 복도의 기준 모습을 기억한 뒤 이상현상이 있으면 뒤로, 없으면 앞으로 간다. 작은 외형 차이는 확실히 관찰 가능한 단서로만 사용한다.",
+      "session_cap_seconds_proposed": 300,
+      "duration_note": "전체 세션 상한 5분 초안 · 실측 전",
+      "design_notes": [],
+      "related": [],
+      "concept": {
+        "available": true,
+        "kind": "새 세계 시안",
+        "image": "media/e288e71569f2b057d642.webp",
+        "page": "rooms.html#AN",
+        "user_final_approval": false
+      },
+      "model": {
+        "summary": "모델 상태 별도 확인",
+        "prepared_inventory_items": null,
+        "inventory_items": null,
+        "kit_ids": []
+      },
+      "game": {
+        "summary": "이 기획·최신 외형의 실제 게임 반영은 별도 확인",
+        "complete": false
+      },
+      "rules": {
+        "page": "rules.html#AN",
+        "detailed_proposal": {
+          "id": "AN",
+          "name": "반복 복도",
+          "mode": "4인 협동 이상현상 관찰",
+          "time": "기준판 학습20초 + 플레이90초 + 결과10초",
+          "premise": "같은 복도의 기준 모습을 기억한 뒤 이상현상이 있으면 뒤로, 없으면 앞으로 간다. 작은 외형 차이는 확실히 관찰 가능한 단서로만 사용한다.",
+          "start": "이상현상 없는 기준 구간을20초 함께 관찰한다. 시계·우산·액자·벤치·환기구를 모두 볼 수 있고 학습 구간은 타이머에 포함하지 않는다. 첫 시험부터 이상현상0개 또는1개만 나온다.",
+          "loop": "각자 복도 탐색 → E로 의심 지점 표시 → 전진/회귀 구역 중 하나를 선택해 합류 → 네 명이 같은 경계 안에1초 모이면 판정 → 맞으면 진행표시 증가, 틀리면 한 단계 후퇴하며 기준판 다시 표시.",
+          "inputs": "WASD 이동, 마우스 보기, E 짧은 위치 표시. 선택은 복도 양끝 집결 구역으로 직접 이동하며 E 버튼 하나로 다른 사람을 강제 이동시키지 않는다.",
+          "win": "90초 안에 올바른 판단5회를 누적 진행 단계5로 만들면 성공. 오답은 한 단계 감소하되0 미만으로 가지 않는다. 판정 순간 선택·단서·결과를 짧게 확인하고 다음 구간으로 함께 이동한다.",
+          "failure": "제한시간 종료 시 실패. 한 명이 반대편에 있으면 아직 선택 미확정이며 탈락하지 않는다. 이상현상은 눈에 보이지 않는 확률 함정이나 프레임 단위 순간 변화로 만들지 않는다.",
+          "anti_stall": "15초 동안 의견이 갈리면 두 방향 인원수를 보여주고 다시 합의를 유도한다. 전체 시간은 계속 진행한다. 연결 끊김은 준비 인원에서 제외하되 남은 전원이 합의해야 한다. 같은 이상현상 연속 재등장 금지, 색만 다른 단서·소리만 있는 단서는 사용하지 않는다.",
+          "tests": [
+            "동일 카메라의 기준/이상판 비교·단서 하나만 변경",
+            "1인 선행 이동으로 전원 전환 방지",
+            "오답 단계 감소·타임아웃·연결 끊김 합의",
+            "낮은 해상도·밝기·색각·청각 환경에서 단서 구별"
+          ]
+        },
+        "win_condition_proposed": "연속 판단 목표 달성"
+      },
+      "details_status": "방 이름·상세 규칙·수치는 임시안",
+      "page": "ideas.html#AN"
+    }
+  ],
+  "features": [
+    {
+      "id": "CP01",
+      "title": "토끼·거북이 카드 뽑기 · 밤샘 우편국",
+      "summary": "독자 세계관의 카드와 팩을 모으는 기능. 밤샘 우편국은 임시 채택 이름이며 토끼 배달부, 이동 거북 우편소, 마지막 배달의 카드 3종을 준비했다.",
+      "notes": [
+        "MUR 같은 희귀 카드의 밀도·금박·홀로그램 감각을 참고한다. 카드 앞면·공통 뒷면·분리 봉합부·속 빈 팩 모델 후보가 있다.",
+        "독립된 방으로 편성할지는 미정이다. 뽑기 확률·게임 규칙·시선에 따라 변하는 홀로그램 효과도 미확정이다."
+      ],
+      "model_ids": [
+        "CP01"
+      ],
+      "status": "아트·모델 후보 있음 · 독립 방 미정",
+      "preview": "media/2b99604321ba654e54a2.webp",
+      "page": "ideas.html#CP01"
+    },
+    {
+      "id": "DETAILS",
+      "title": "비행 소품과 작은 먼지·파편",
+      "summary": "방마다 필요한 물건을 만든 뒤 날아가는 물체와 작은 환경 소품까지 확장한다. 태엽 나방·우편 배달 드론·종이비행기·씨앗·화살·먼지·포장지·잎·볼트·기어 조각을 공용 후보로 준비했다.",
+      "notes": [
+        "비행 AI·실제 물리·파티클 방출과 군집 성능은 별도 작업이다. 반복 소품은 공용 메시, 미세먼지는 효과용 텍스처를 활용한다."
+      ],
+      "model_ids": [
+        "FL01",
+        "FL02",
+        "FL03",
+        "DT01",
+        "DT02",
+        "DT03"
+      ],
+      "status": "공용 소품 후보 있음 · 동작 연결 별도",
+      "preview": "media/33b5f5672e04f0f7b47b.webp",
+      "page": "ideas.html#DETAILS"
+    }
+  ],
+  "unassigned_candidates": [
+    {
+      "name": "줄다리기",
+      "status": "거대 생존놀이 확장의 추가 제안 · 방 ID·룰·제작 순서 미정"
+    },
+    {
+      "name": "구슬 내기",
+      "status": "추가 제안 · 경사판을 연결하는 구슬 공작실과 다른 놀이 후보"
+    },
+    {
+      "name": "모양 떼기",
+      "status": "추가 제안 · 방 ID·룰·제작 순서 미정"
+    },
+    {
+      "name": "인원 맞춰 문으로 이동",
+      "status": "추가 제안 · 방 ID·룰·제작 순서 미정"
+    },
+    {
+      "name": "징검돌",
+      "status": "추가 제안 · 기존 유리다리/발판 방과의 구분 검토 전"
+    }
+  ]
+}
